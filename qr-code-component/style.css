@@ -30,6 +30,7 @@ main {
     flex-direction: column;
     align-items: center;
     background-color: var(--white);
+    margin: 20vh 5vw;
     padding: 15px 0px;
 }
 
@@ -57,13 +58,7 @@ section {
     padding: 10px;
 }
 
-@media(max-width: 375px) {
-    main {
-        margin: 80px 30px;
-    }
-}
-
-@media(min-width: 1440px) {
+@media(min-width: 376px) {
     main {
         margin: 9em auto;
         max-width: 400px;
